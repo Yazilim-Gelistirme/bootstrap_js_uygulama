@@ -1,0 +1,82 @@
+.roboto-font {
+             font-family: "Roboto", sans-serif;
+             font-optical-sizing: auto;
+             font-size: 14px;
+             font-variation-settings:
+                     "wdth" 100;
+         }
+
+.container {
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+}
+.slider-yon{
+    width: 30px;
+    height: 30px;
+}
+
+.btn.add-to-card {
+    background-color: #CF8080 !important;
+    color: #fff !important;
+    border: 2px solid #CF8080 !important;
+}
+
+.btn.add-to-card:hover {
+    background-color: #fff !important;
+    color: #CF8080 !important;
+    border: 2px solid #CF8080 !important;
+}
+.btn.add-heart {
+    background-color: #fff !important;
+    color: #CF8080 !important;
+    border: 2px solid #CF8080 !important;
+}
+
+.btn.add-heart:hover {
+    background-color: #d0bfaa !important;
+    color: white !important;
+    border: 2px solid #CF8080 !important;
+}
+.list-style {
+    list-style-type: disc;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 540px;
+    }
+}
